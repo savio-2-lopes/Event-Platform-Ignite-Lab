@@ -16,7 +16,7 @@ export function Video(props: VideoProps) {
     },
   });
 
-  if (!data || !data.leson) {
+  if (!data || !data.lesson) {
     return (
       <div className="flex-1 flex justify-center items-center">
         <Spinner />
