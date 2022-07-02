@@ -69,7 +69,10 @@ export function Subscribe() {
           </form>
         </div>
       </div>
-      <img src="/src/assets/code_mockup.png" className="mt-10" alt="Mockup" />
+      <div
+        className="mt-10"
+        style={{ backgroundImage: "url(/src/assets/code_mockup.png)" }}
+      />
     </div>
   );
 }
