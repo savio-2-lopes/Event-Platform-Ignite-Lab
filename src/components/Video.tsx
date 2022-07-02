@@ -3,34 +3,8 @@ import { CaretRight, FileArrowDown } from "phosphor-react";
 import { Button } from "./Button";
 import "@vime/core/themes/default.css";
 import { gql, useQuery } from "@apollo/client";
+import { Spinner } from "./Spinner";
 
-const GET_LESSON_BY_SLUG_QUERY = gql`
-  query GetLessonBySlug($slug: String) {
-    lesson(where: { slug: $slug }) {
-      title
-      videoId
-      description
-      teacher {
-        bio
-        avatarURL
-        name
-      }
-    }
-  }
-`;
-
-interface GetLessonBySlugResponse {
-  lesson: {
-    title: string;
-    videoId: string;
-    description: string;
-    teacher: {
-      bio: string;
-      avatarURL: string;
-      name: string;
-    };
-  };
-}
 
 interface VideoProps {
   lessonSlug: string;
@@ -45,8 +19,8 @@ export function Video(props: VideoProps) {
 
   if (!data) {
     return (
-      <div className="flex-1">
-        <p>Carregando ...</p>
+      <div className="flex-1 flex justify-center items-center">
+        <Spinner />
       </div>
     );
   }
