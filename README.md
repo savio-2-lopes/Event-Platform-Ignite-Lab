@@ -1,5 +1,9 @@
 # Event Platform - Ignite Lab 02
 
+<p align="center">
+    <img alt="Event Platform - Ignite Lab 02" title="Event Platform - Ignite Lab 02" src="./src/assets/ignite-lab.gif" width="900px" />
+</p>
+
 ## Sobre o projeto
 
 A aplicação Event Platform está sendo desenvolvida durante a semana do evento [Ignite Lab 02](https://lp.rocketseat.com.br/inscricao/ignite-lab) disponibilizada pela Rocketseat. O projeto consiste em uma plataforma web de eventos feita com React, Typescript, GraphQL, GraphCMS dentre outras tecnologias.
