@@ -4,6 +4,8 @@
 
 A aplicação Event Platform está sendo desenvolvida durante a semana do evento [Ignite Lab 02](https://lp.rocketseat.com.br/inscricao/ignite-lab) disponibilizada pela Rocketseat. O projeto consiste em uma plataforma web de eventos feita com React, Typescript, GraphQL, GraphCMS dentre outras tecnologias.
 
+<br>
+
 ## 🚀 Como executar o projeto
 
 ### Pré-requisitos
@@ -11,6 +13,8 @@ A aplicação Event Platform está sendo desenvolvida durante a semana do evento
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/) e o gerenciador de pacotes [Yarn](https://yarnpkg.com).
 Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
+
+<br>
 
 ## Instalação e uso
 
@@ -30,11 +34,11 @@ yarn dev
 # O servidor inciará em http://localhost:3000
 ```
 
+<br>
+
 ## Licença
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](./LICENSE.md) para mais detalhes.
-
----
 
 <br>
 
