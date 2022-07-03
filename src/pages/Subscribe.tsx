@@ -2,6 +2,7 @@ import { FormEvent, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Logo } from "../components/Logo";
 import { useCreateSubscriberMutation } from "../graphql/generated";
+import MockupImg from '../assets/mockup.png';
 
 export function Subscribe() {
   const navigate = useNavigate();
@@ -69,7 +70,7 @@ export function Subscribe() {
           </form>
         </div>
       </div>
-      <img src="/src/assets/mockup.png" className="mt-10" alt="Mockup" />
+      <img src={MockupImg} className="mt-10" alt="Mockup" />
     </div>
   );
 }
